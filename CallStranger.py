@@ -98,7 +98,7 @@ services=[]
 serviceeventSubURLs=[]
 dummyservicekeywords=['dummy','notfound']
 # this host must be external so you can be sure that devices are vulnerable. Most of UPnP stacks don't allow hostname. use IP if possible
-StrangerHost='http://'+socket.gethostbyname('verify.callstranger.com')
+StrangerHost='http://'+socket.gethostbyname('callstranger.vsafgl.com')
 StrangerPort='80'
 getSessionPath='/CallStranger.php?c=getsession'
 putServicePath='/CallStranger.php?c=addservice&service=' # this HTTP request verb is NOTIFY , your web server must respond to NOTIFY
